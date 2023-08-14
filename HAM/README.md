@@ -1,4 +1,4 @@
-# REP_MouldRisk_Data_Analysis
+#  Numerical Simulation of One-dimensional Heat, Air and Moisture (HAM) Transfer in Porous Materials
 
 ## Overview:
 This code simulates the heat and moisture transfer in building materials. It primarily focuses on the BM3 material from the Hamstad library, but also provides provisions to consider other materials like concrete and wood fibre.
