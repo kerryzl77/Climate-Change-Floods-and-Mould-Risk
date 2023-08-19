@@ -7,15 +7,14 @@
 - [Mould Growth Model](#mould-growth-model)
 - [Parameter Tuning](#parameter-tuning)
 - [RHcrit Variations](#rhcrit-variations)
-- [Conclusion](#conclusion)
+- [Conclusion and Results](#conclusion-and-results)
 
 ---
 
 ## Data Source
-We began with the acquisition of time series data for the month of July 2022, collected at 5-minute intervals. This data primarily contained temperature (denoted as `Td`) and relative humidity (denoted as `RH`) readings.
+University of Reading Atmospheric Observatory Database - time series data with temperature (denoted as `Td`) and relative humidity (denoted as `RH`)for the July 1st to Sep 1st 2022, collected at 5-minute intervals. 
 
 ## Data Cleaning
-The initial data had some formatting issues, which included an additional header row. These were addressed by:
 1. Removing the extraneous header.
 2. Converting the `TimeStamp` column into a datetime format for easier manipulation.
 3. Ensuring that the columns 'Td' and 'RH' were recognized as numeric data types.
@@ -43,5 +42,9 @@ For each parameter set, we iterated through `C_decline` values ranging from 0.1 
 ## RHcrit Variations
 Additionally, we evaluated the model's performance for varying values of `RHcrit` when `T > 20` to determine its impact on mould growth. The values tested were 50, 60, 70, and 80.
 
-## Conclusion
-Through this comprehensive analysis, we were able to model the mould growth index and its rate of change over time using given environmental data. Parameter tuning aided in refining the model to ensure the mould index remains within a specified range, providing valuable insights for potential mould prevention strategies.
+## Conclusion and Results
+Through this comprehensive analysis, we were able to model the mould growth index and its rate of change over time using given environmental data. The optimal parameter set was determined to be `p_T = 0.34`, `p_RH = 6.95`, and `p_C = 33.01` with a `C_decline` of `0.1` (or the specific value you found optimal). 
+[VTT_5MIN.ipynb](./VTT_5MIN.ipynb)
+
+
+
