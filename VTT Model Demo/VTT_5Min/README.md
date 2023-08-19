@@ -1,7 +1,7 @@
 # Mould Growth Modeling and Analysis
 
 ## Table of Contents
-- [Data Acquisition](#data-acquisition)
+- [Data Source](#data-source)
 - [Data Cleaning](#data-cleaning)
 - [Modeling RHcrit](#modeling-rhcrit)
 - [Mould Growth Model](#mould-growth-model)
@@ -11,7 +11,7 @@
 
 ---
 
-## Data Acquisition
+## Data Source
 We began with the acquisition of time series data for the month of July 2022, collected at 5-minute intervals. This data primarily contained temperature (denoted as `Td`) and relative humidity (denoted as `RH`) readings.
 
 ## Data Cleaning
