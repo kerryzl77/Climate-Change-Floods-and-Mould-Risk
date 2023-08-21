@@ -2,7 +2,6 @@
 
 ## Table of Contents
 - [Data Source](#data-source)
-- [Data Cleaning](#data-cleaning)
 - [Modeling RHcrit](#modeling-rhcrit)
 - [Mould Growth Model](#mould-growth-model)
 - [Parameter Tuning](#parameter-tuning)
@@ -13,11 +12,6 @@
 
 ## Data Source
 University of Reading Atmospheric Observatory Database - time series data with temperature (denoted as `Td`) and relative humidity (denoted as `RH`)for the July 1st to Sep 1st 2022, collected at 5-minute intervals. 
-
-## Data Cleaning
-1. Removing the extraneous header.
-2. Converting the `TimeStamp` column into a datetime format for easier manipulation.
-3. Ensuring that the columns 'Td' and 'RH' were recognized as numeric data types.
 
 ## Modeling RHcrit
 A critical relative humidity (RHcrit) model was constructed based on the given temperature. The model is defined as:
