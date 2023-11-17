@@ -1,4 +1,4 @@
-# Scenario DTP Research Experience Placements 2023 - Climate Change, Floods, and Mould Risk 
+# Blog Post at: https://medium.com/@liuzikai0216/mould-growth-prediction-kmeans-vtt-model-and-real-world-data-3e666a09e235
 
 ## Project Overview
 This repository contains research and modeling resources for a project supervised by Prof. Hong Yang from the University of Reading. It focuses on assessing climate change-induced flood risks and the subsequent potential for mould growth in South England. The project leverages UKCP18 data for climate assessment and combines the VTT model with Kmeans clustering for predicting mould growth. Further analysis is conducted using an Airthings Air Quality Monitor.
